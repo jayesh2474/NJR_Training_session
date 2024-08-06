@@ -1,0 +1,48 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    background-color: rgb(31, 31, 31);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    max-width: 300px;
+}
+
+.card-image{
+    padding: 60px;
+}
+
+.card-data{
+    padding: 16px;
+}
+
+.card-title{
+    font-size: 24px;
+    text-align: center;
+}
+
+.card-button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 20vh;
+    height: 5vh;
+
+}
+
+.card-link{
+    text-decoration: none;
+    color: white;
+}
+.card-discription{
+    font-size: 1em;
+    margin: 16px 0;
+
+}
